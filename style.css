@@ -182,6 +182,9 @@ body {
   }
 }
 
+.project-img {
+  width: 50%
+}
 
 /*---Firefox Bug Fix --*/
 .carousel-item {
