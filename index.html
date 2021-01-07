@@ -20,7 +20,7 @@
     <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="/">
-          <img src="img/logo.png" alt="logo" />
+          <img src="img/mdLogo.png" alt="logo" />
         </a>
         <button
           class="navbar-toggler"
@@ -35,10 +35,16 @@
             <li class="nav-item active">
               <a href="#" class="nav-link">Home</a>
             </li>
-            <li class="nav-item"><a href="#" class="nav-link">About</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Team</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Services</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Connect</a></li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#portfolio" class="nav-link">Portfolio</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#connect" class="nav-link">Connect</a>
+            </li>
           </ul>
         </div>
       </div>
@@ -94,7 +100,7 @@
     <div class="container-fluid padding">
       <div class="row welcome text-center">
         <div class="col-12">
-          <h1 class="display-4">Built with ease</h1>
+          <h1 class="display-4" id="portfolio">Portfolio</h1>
         </div>
         <div class="col-12">
           <p class="lead">
@@ -126,32 +132,7 @@
 
       <hr class="my-4" />
     </div>
-    <!--- Two Column Section -->
-    <div class="container-fluid padding">
-      <div class="row padding">
-        <div class="col-md-12 col-lg-6">
-          <h2>If you build it...</h2>
-          <p>
-            The columns will automatically stack on top of each other when the
-            screen is less than 575px wide.
-          </p>
-          <p>
-            Resize the browser window to se the effect. Responsive web design
-            has been more important as the amount of mobile traffic now accounts
-            for more than half of total internet traffic.
-          </p>
-          <p>
-            It can also display the web page differently depending on the screen
-            size or viewing device.
-          </p>
-          <a href="#" class="btn btn-primary">Learn More</a>
-        </div>
-        <div class="col-lg-6">
-          <img src="img/desk.png" alt="Desk" class="img-fluid" /><br />
-        </div>
-      </div>
-    </div>
-    <hr class="my-4" />
+
     <!--- Fixed background -->
     <figure>
       <div class="fixed-wrap"><div id="fixed"></div></div>
@@ -185,7 +166,7 @@
     <!--- Meet the team -->
     <div class="container-fluid padding">
       <div class="row welcome text-center">
-        <div class="col-12"><h1 class="display-4">About Me</h1></div>
+        <div class="col-12"><h1 class="display-4" id="about">About Me</h1></div>
       </div>
     </div>
     <!--- Cards -->
@@ -200,7 +181,8 @@
               <h4 class="card-title">Michael</h4>
               <p class="card-text">
                 I am a web/mobile developer, a software engineer, and designer.
-                I want to have what I build, help to better people's lifes
+                I think software should be made to enrich life, not create
+                burdens unnecessarily.
               </p>
 
               <a href="#" class="btn btn-outline-secondary">See Portfolio</a>
@@ -215,7 +197,7 @@
       <div class="row padding">
         <div class="col-lg-3"></div>
         <div class="col-md-12 col-lg-6">
-          <h2>Our Philosophy</h2>
+          <h2>My Philosophy</h2>
           <p>Albert Einstein:</p>
           <p>1 - Out of Clutter, find simplicity</p>
           <p>2 - From discord, find harmony</p>
@@ -238,7 +220,7 @@
     <!--- Connect -->
     <div class="container-fluid padding">
       <div class="row text-center padding">
-        <div class="col-12"><h2>Connect</h2></div>
+        <div class="col-12" id="connect"><h2>Connect</h2></div>
         <div class="col-12 social padding">
           <a href="#"><i class="fab fa-github"></i></a>
           <a href="https://www.twitter.com/michaeldrawe"
@@ -256,51 +238,31 @@
     <footer>
       <div class="container-fluid padding">
         <div class="row text-center">
-          <div class="col-md-4">
-            <img src="img/w3newbie.png" alt="" />
+          <div class="col-md-6">
+            <img src="img/mdLogoWhite.png" alt="" />
             <hr class="light" />
-            <p>555-555-5555</p>
-            <p>email@myemail.com</p>
-            <p>100 Street Address</p>
-            <p>City, State, 00000</p>
+
+            <p>michaeldrawe@gmail.com</p>
+            <p>Phone: 801-201-9199</p>
+            <p>Taylorsville, Utah</p>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-6">
             <hr class="light" />
-            <h5>Our Hours</h5>
+            <h5>Contact Me</h5>
             <hr class="light" />
-            <p>Monday: 9 am to 5 pm</p>
-            <p>Saturday: 10am =- 4pm</p>
-            <p>Sunday: Closed</p>
+
+            <p>Best way - Connect through LinkedIn and send a message</p>
+            <p>Send me an email</p>
+            <p>Text me</p>
+            <p></p>
           </div>
-          <div class="col-md-4">
-            <hr class="light" />
-            <h5>Our Hours</h5>
-            <hr class="light" />
-            <p>City, State, 00000</p>
-            <p>City, State, 00000</p>
-            <p>City, State, 00000</p>
-          </div>
+
           <div class="col-12">
             <hr class="light-100" />
-            <h5>&copy; w3newbie.com</h5>
+            <h5>2021 &copy; Michael Drawe</h5>
           </div>
         </div>
       </div>
     </footer>
   </body>
 </html>
-
-<!-- View in Browser: Drew's #1 Trending YouTube Tutorial -->
-<!-- <div class="youtube-tutorial">
-  <a
-    href="http://w3n.link/bundle-bonus-playlist"
-    target="_blank"
-    style="cursor: pointer !important"
-  >
-    <img
-      src="https://w3newbie.com/wp-content/uploads/12-site-bundle-banner.png"
-      style="max-width: 100%; position: absolute; bottom: 0"
-    />
-  </a>
-</div> -->
-<!-- End View in Browser: Drew's #1 Trending YouTube Tutorial -->
