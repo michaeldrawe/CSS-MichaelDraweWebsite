@@ -19,6 +19,11 @@ body {
 
 .nav-link {
   font-size: 1.1em !important;
+
+}
+
+.nav-item {
+  padding-left: 10px;
 }
 
 .carousel-inner img {
@@ -27,8 +32,18 @@ body {
 }
 
 .carousel-img {
-  filter: brightness(30%);
+  filter: brightness(40%);
   height: 50%
+}
+
+.carousel-button {
+  text-decoration: none;
+  color: #fff
+}
+
+.carousel-button:hover {
+  text-decoration: none;
+  color: #000
 }
 
 .carousel-caption {
